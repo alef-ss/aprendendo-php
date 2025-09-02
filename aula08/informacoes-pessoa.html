@@ -9,7 +9,10 @@
   <form method="get" action="informacoes-pessoa.php">
     <input type="text" name="nome" placeholder="Seu nome"> <br>
     <input type="number" name="ano_nascimento" placeholder="Seu ano de nascimento"> <br>
-    <input type="text" name="sexo" placeholder="Seu sexo"> <br>
+    <label for="sexo">Homem:</label>
+    <input type="radio" name="sexo" id="masc" value="homem" checked> <br>
+    <label for="sexo">Mulher:</label>
+    <input type="radio" name="sexo" id="fem" value="feminino"> <br>
     <button type="submit">Enviar</button>
   </form>
 </body>

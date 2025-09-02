@@ -10,5 +10,5 @@ echo $raiz_quadrada;
   protegê-la faz de uma alma dócil
   um combatente de guerra.
 
-  Inspirado em Edward Newgate (Barba Branca)
+  Inspirado nos personagens Edward Newgate (Barba Branca) e Gardar.
 */
