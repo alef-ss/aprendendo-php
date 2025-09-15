@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Região</title>
+</head>
+<style>
+  form {
+    position: absolute;
+    height: 100px;
+    background-color: aqua;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .select {
+    padding: 5px;
+    outline: none;
+    border: none;
+  }
+  .botao {
+    padding: 5px;
+    width: 100%;
+  }
+</style>
+<body>
+  <form method="get" action="regiao.php">
+    <label class="escolha-estado" for="estado">Escolha um estado</label> <br>
+    <select class="select" id="estado" name="estado">
+      <option value="1">Bahia (Nordeste)</option>
+      <option value="2">São Paulo (Sudeste)</option>
+      <option value="3">Acre (Norte)</option>
+      <option value="4">Goiás (Centro-Oeste)</option>
+    </select>
+    <br>
+    <br>
+    <button class="botao" type="submit">Enviar</button>
+  </form>
+</body>
+</html>

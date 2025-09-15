@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REALIZAR OPERAÇÃO</title>
+</head>
+<body>
+  <form method="POST" action="realizar-operacao.php">
+   <h3>Digite um número: </h3><input type="number" name="numero"> <br>
+   <fieldset>
+    <legend>OPERAÇÃO</legend>
+
+    <input type="radio" name="operacao" id="dobro" value="1">
+    <label for="dobro">Dobro</label> <br>
+    
+    <input type="radio" name="operacao" id="cubo" value="2">
+    <label for="cubo">Cubo</label> <br>
+    
+    <input type="radio" name="operacao" id="raizQuadrada" value="3">
+    <label for="raizQuadrada">Raiz quadrada</label> <br>
+   </fieldset>
+   <button type="submit">Realizar operação</button>
+  </form>
+</body>
+</html>
